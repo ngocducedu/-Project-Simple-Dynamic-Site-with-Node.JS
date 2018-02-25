@@ -16,7 +16,7 @@ function view(templateName, values, reponse) {
   //Insert values in to the content
   fileContents = mergeValues(values, fileContents);
   //Write out the contents to the response
-  reponse.write(fileContents);
+  response.write(fileContents);
 }
 
 module.exports.view = view;
